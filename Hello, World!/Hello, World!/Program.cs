@@ -10,9 +10,12 @@ namespace Hello__World_
     {
         static void Main(string[] args)
         {
-            Console.Write("A \n");
+            Console.WriteLine("Typing Your Name : ");
             string a = Console.ReadLine();
-            Console.WriteLine(a);
+            Console.WriteLine("my name is :" + a);
+            Console.WriteLine("Typing User Age : ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("I am " + b + " Years Old.");    
         }
     }
 }
