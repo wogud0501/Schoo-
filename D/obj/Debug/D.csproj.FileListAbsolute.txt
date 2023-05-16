@@ -1,0 +1,10 @@
+D:\2706\School\D\bin\Debug\D.exe.config
+D:\2706\School\D\bin\Debug\D.exe
+D:\2706\School\D\bin\Debug\D.pdb
+D:\2706\School\D\obj\Debug\D.csproj.AssemblyReference.cache
+D:\2706\School\D\obj\Debug\D.Form1.resources
+D:\2706\School\D\obj\Debug\D.Properties.Resources.resources
+D:\2706\School\D\obj\Debug\D.csproj.GenerateResource.cache
+D:\2706\School\D\obj\Debug\D.csproj.CoreCompileInputs.cache
+D:\2706\School\D\obj\Debug\D.exe
+D:\2706\School\D\obj\Debug\D.pdb

@@ -1,0 +1,10 @@
+D:\2706\School\Yeah\bin\Debug\Yeah.exe.config
+D:\2706\School\Yeah\bin\Debug\Yeah.exe
+D:\2706\School\Yeah\bin\Debug\Yeah.pdb
+D:\2706\School\Yeah\obj\Debug\Yeah.csproj.AssemblyReference.cache
+D:\2706\School\Yeah\obj\Debug\Yeah.Form1.resources
+D:\2706\School\Yeah\obj\Debug\Yeah.Properties.Resources.resources
+D:\2706\School\Yeah\obj\Debug\Yeah.csproj.GenerateResource.cache
+D:\2706\School\Yeah\obj\Debug\Yeah.csproj.CoreCompileInputs.cache
+D:\2706\School\Yeah\obj\Debug\Yeah.exe
+D:\2706\School\Yeah\obj\Debug\Yeah.pdb

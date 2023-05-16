@@ -1,0 +1,10 @@
+D:\2706\School\upndown\bin\Debug\upndown.exe.config
+D:\2706\School\upndown\bin\Debug\upndown.exe
+D:\2706\School\upndown\bin\Debug\upndown.pdb
+D:\2706\School\upndown\obj\Debug\upndown.csproj.AssemblyReference.cache
+D:\2706\School\upndown\obj\Debug\upndown.Form1.resources
+D:\2706\School\upndown\obj\Debug\upndown.Properties.Resources.resources
+D:\2706\School\upndown\obj\Debug\upndown.csproj.GenerateResource.cache
+D:\2706\School\upndown\obj\Debug\upndown.csproj.CoreCompileInputs.cache
+D:\2706\School\upndown\obj\Debug\upndown.exe
+D:\2706\School\upndown\obj\Debug\upndown.pdb

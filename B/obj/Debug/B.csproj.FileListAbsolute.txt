@@ -1,0 +1,7 @@
+D:\2706\School\B\bin\Debug\B.exe.config
+D:\2706\School\B\bin\Debug\B.exe
+D:\2706\School\B\bin\Debug\B.pdb
+D:\2706\School\B\obj\Debug\B.csproj.AssemblyReference.cache
+D:\2706\School\B\obj\Debug\B.csproj.CoreCompileInputs.cache
+D:\2706\School\B\obj\Debug\B.exe
+D:\2706\School\B\obj\Debug\B.pdb

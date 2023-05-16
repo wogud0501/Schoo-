@@ -36,7 +36,7 @@ class MainClass
         myCar.Setname("람보르기니");
         // myrobot.name = "쿠쿠"
         Console.WriteLine("차 이름 : " + myCar.Getname());
-        myCar.Setspeed(19);
+        myCar.Setspeed(50);
         Console.WriteLine("지금 속도 : " + myCar.Getspeed());
     }
 }
