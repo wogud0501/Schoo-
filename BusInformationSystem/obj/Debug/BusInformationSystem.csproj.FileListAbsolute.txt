@@ -1,0 +1,10 @@
+D:\2706\School\BusInformationSystem\bin\Debug\BusInformationSystem.exe.config
+D:\2706\School\BusInformationSystem\bin\Debug\BusInformationSystem.exe
+D:\2706\School\BusInformationSystem\bin\Debug\BusInformationSystem.pdb
+D:\2706\School\BusInformationSystem\obj\Debug\BusInformationSystem.csproj.AssemblyReference.cache
+D:\2706\School\BusInformationSystem\obj\Debug\BusInformationSystem.Form1.resources
+D:\2706\School\BusInformationSystem\obj\Debug\BusInformationSystem.Properties.Resources.resources
+D:\2706\School\BusInformationSystem\obj\Debug\BusInformationSystem.csproj.GenerateResource.cache
+D:\2706\School\BusInformationSystem\obj\Debug\BusInformationSystem.csproj.CoreCompileInputs.cache
+D:\2706\School\BusInformationSystem\obj\Debug\BusInformationSystem.exe
+D:\2706\School\BusInformationSystem\obj\Debug\BusInformationSystem.pdb

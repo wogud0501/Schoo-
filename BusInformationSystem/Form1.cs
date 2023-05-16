@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.IO;
+using System.Net;
+using System.Xml;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,9 +20,52 @@ namespace BusInformationSystem
             InitializeComponent();
         }
 
+        private string LoadBusInformation()
+        {
+         
+
+
+            try
+            {
+                WebClient client = new WebClient();
+                string url = "https://apis.data.go.kr/6410000/buslocationservice/getBusLocationList?serviceKey=7Ld5ucC136qsunv%2B2BK3%2FxejzXHuF0kuE6MXd02uiX%2Bz%2BQY8QDl4LjU6uYuJSUq0lWT7B2ug%2FH8l2pp05XPMVQ%3D%3D&routeId=234001243";
+                using (StreamReader reader = new StreamReader(client.OpenRead(url)))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+
+            return null;
+        }
+        private void printBusInform(string xmlData)
+        {
+            listView1.Items.Clear();
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(xmlData);
+
+            XmlNodeList list = xmlDoc.GetElementsByTagName("xmlData");
+
+            int idx = 0;
+            foreach (XmlNode node in list)
+            {
+                ListViewItem item = new ListViewItem();
+                item.Text = idx.ToString();
+                item.SubItems.Add(node["plateNo"].InnerText);
+                item.SubItems.Add(node["막차여부"].InnerText);
+                item.SubItems.Add(node["빈자리 수"].InnerText);
+
+                listView1.Items.Add(item);
+
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-
+            string result = LoadBusInformation();
+            printBusInform(result);
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -29,7 +75,7 @@ namespace BusInformationSystem
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            LoadBusInformation();
         }
     }
 }
