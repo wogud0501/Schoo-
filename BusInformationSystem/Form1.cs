@@ -28,7 +28,7 @@ namespace BusInformationSystem
             try
             {
                 WebClient client = new WebClient();
-                string url = "https://apis.data.go.kr/6410000/buslocationservice/getBusLocationList?serviceKey=7Ld5ucC136qsunv%2B2BK3%2FxejzXHuF0kuE6MXd02uiX%2Bz%2BQY8QDl4LjU6uYuJSUq0lWT7B2ug%2FH8l2pp05XPMVQ%3D%3D&routeId=234001243";
+                string url = "https://apis.data.go.kr/6410000/buslocationservice/getBusLocationList?serviceKey=LeZsnLGwpMbvOPtg6%2Bw5fiPliCoxGu8Q3RS0H3PAcixlky%2BCT7uaXD27BN99mY1GbJaA7NTv734d6N%2FFeNzvOw%3D%3D&routeId=234001243";
                 using (StreamReader reader = new StreamReader(client.OpenRead(url)))
                 {
                     return reader.ReadToEnd();
